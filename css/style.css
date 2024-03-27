@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+svg{
+    fill: var(--bs-body-color);
+}
+
+#toggletheme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+}
+
+#toggletheme:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: var(--bs-border-color);
+}
+
+#toggletheme span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggletheme span svg{
+    width: 24px;
+    height: 24px;
+    fill: var(--bs-body-color);
+}
