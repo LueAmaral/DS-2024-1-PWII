@@ -1,0 +1,1 @@
+criar os scripts para salvar os dados no banco e fazer o upload da imagem na pasta, renomear a imagem com o valor do codigo que não pode ser repitido, toda ação do usuario precisa de uma resposta
