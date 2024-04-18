@@ -1,10 +1,10 @@
 <?php
-    include 'connection.php';
+    include '../php/connection.php';
 
     $rm = $_GET['rm'];
 
 
-    $dados = $conn -> query("SELECT * FROM cadastros WHERE rm = $rm");
+    $dados = $conn -> query("SELECT * FROM cadastro WHERE rm = $rm");
     while ($linha = $dados -> fetch_assoc()) {
         $rm = $linha['rm'];
         $nome = $linha['nome'];

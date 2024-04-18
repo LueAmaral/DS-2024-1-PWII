@@ -43,7 +43,7 @@
             <td>$senha</td>
             <td>$tipo</td>
             <td><a href='../php/delete.php?rm=$rm'>Excluir</a></td>
-            <td><a href=''>Alterar</a></td>
+            <td><a href='../views/form_update.php?rm=$rm'>Alterar</a></td>
             </tr>";
     }
     ?>
