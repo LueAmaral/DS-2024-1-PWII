@@ -24,7 +24,7 @@
     </head>
 
     <body class="" >
-    <header class="vh-100">            
+        <header>            
             <nav class="navbar bg-body-tertiary d-flex justify-content-between">
                 <div class="d-flex align-items-center">
                     <img class="avatar" src="$avatar" alt="$nome">
