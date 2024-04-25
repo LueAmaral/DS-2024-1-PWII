@@ -23,6 +23,10 @@ svg{
     border: solid 3px var(--bs-emphasis-color);
 }
 
+th{
+    text-align: center;
+}
+
 #toggletheme {
     display: flex;
     justify-content: center;

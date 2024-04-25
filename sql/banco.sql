@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `cadastro` (
 
 -- Copiando dados para a tabela noite2.cadastro: ~1 rows (aproximadamente)
 INSERT INTO `cadastro` (`id`, `rm`, `nome`, `email`, `senha`, `avatar`, `tipo`) VALUES
-	(00007, 33333, 'Quati', 'aquatidan@gmaila.com', '123', 'img/33333.png', 'professor');
+	(00001, 12345, 'Teste', 'teste@teste.com', 'teste', '../assets/img/12345.jpg', 'Teste');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
