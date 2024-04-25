@@ -5,6 +5,7 @@
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
+    $tipo = $_POST['tipo'];
 
     $dados = $conn -> query("SELECT * FROM cadastro WHERE rm = $rm");
     $linha = $dados -> fetch_assoc();
@@ -15,12 +16,12 @@
         if ($dados -> num_rows > 0) {
             echo "E-mail já existe";
         } else {
-            $conn -> query("UPDATE cadastro SET nome = '$nome', email = '$email', senha = '$senha' WHERE rm = $rm");
+            $conn -> query("UPDATE cadastro SET nome = '$nome', email = '$email', senha = '$senha', tipo = '$tipo' WHERE rm = $rm");
             echo "Dados Atualizados";
         }
     } else {
-        $conn -> query("UPDATE cadastro SET nome = '$nome', email = '$email', senha = '$senha' WHERE rm = $rm");
+        $conn -> query("UPDATE cadastro SET nome = '$nome', email = '$email', senha = '$senha', tipo = '$tipo' WHERE rm = $rm");
         echo "Dados Atualizados";
     }
     
-    // header("refresh: 2; url = ../table.html");
+    header("refresh: 2; url = ../views/table.php");
