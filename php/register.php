@@ -34,3 +34,5 @@
             $result_message = "Não foi possivel concluir o upload da imagem.";
         }
     }
+
+    header("refresh: 2; url = ../views/signin.php");
